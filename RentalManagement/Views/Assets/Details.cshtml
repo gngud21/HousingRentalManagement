@@ -34,7 +34,17 @@
             @Html.DisplayFor(model => model.Assets.AskingRent)
         </dd>
 
+        <dt>
+            @Html.DisplayNameFor(model => model.Assets.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Assets.Id)
+        </dd>
     </dl>
+    <div>
+        @Html.ActionLink("Add an asset", "Create", "Assets", null, new { @class = "btn btn-primary btn-large" })
+    </div>
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
