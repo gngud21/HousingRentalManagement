@@ -7,13 +7,13 @@ namespace RentalManagement.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AddAssetId : IMigrationMetadata
+    public sealed partial class AddedIsOccupiedForAsset : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddAssetId));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddedIsOccupiedForAsset));
         
         string IMigrationMetadata.Id
         {
-            get { return "201704060633482_AddAssetId"; }
+            get { return "201704120541206_AddedIsOccupiedForAsset"; }
         }
         
         string IMigrationMetadata.Source

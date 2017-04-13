@@ -7,13 +7,13 @@ namespace RentalManagement.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class ChangedDB : IMigrationMetadata
+    public sealed partial class addmigration : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(ChangedDB));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(addmigration));
         
         string IMigrationMetadata.Id
         {
-            get { return "201704080556290_ChangedDB"; }
+            get { return "201704120737045_add-migration"; }
         }
         
         string IMigrationMetadata.Source

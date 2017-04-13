@@ -7,13 +7,13 @@ namespace RentalManagement.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AddAssetsToClient1 : IMigrationMetadata
+    public sealed partial class AddAssetsInClient : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddAssetsToClient1));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddAssetsInClient));
         
         string IMigrationMetadata.Id
         {
-            get { return "201704042029312_AddAssetsToClient1"; }
+            get { return "201704120707013_AddAssetsInClient"; }
         }
         
         string IMigrationMetadata.Source
